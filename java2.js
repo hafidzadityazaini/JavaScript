@@ -1,4 +1,4 @@
-const umur = 6;
+const umur = 5;
 
 if (umur > 5) {
   console.log("Pembeli harus membayar tiket penuh");
@@ -67,7 +67,7 @@ console.log(`Total yang wajib dibayar adalah Rp ${totalBayar}.`);
 
 
 
-const age = 20;
+const age = 17;
 
 if (age >= 18) {
   console.log("Registrasi Sukses");

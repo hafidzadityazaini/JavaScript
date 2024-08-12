@@ -1,4 +1,4 @@
-var nilai =61
+var nilai =80
 var totalkehadiran = 25;
 var kehadiran = 0;
 var lulus = (kehadiran / totalkehadiran) * 100
@@ -31,7 +31,7 @@ else if (nilai < 70 && nilai> 50 ) {
 }   
 // no 2
 
-var terdaftar = true;
+var terdaftar = false;
 var pembayaransukses = true;
 if (terdaftar==true) {
   if (pembayaransukses==true) {

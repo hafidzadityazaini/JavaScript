@@ -1,5 +1,5 @@
 //soal 1 start
-let hari = "senin";
+let hari = "sabtu";
 
 switch (hari) {
   case "senin":
@@ -51,7 +51,7 @@ for (let i = 0; i <= 10; i++) {
 //soal 4 start
 for (let i = 1; i <= 15; i++) {
   if (i % 3 === 0) {
-    console.log("multipleofthree");
+    console.log("multipleofthree",i);
   } else {
     console.log(i);
   }
