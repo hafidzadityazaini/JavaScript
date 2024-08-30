@@ -12,6 +12,7 @@ const person = {
 // Menggunakan Brekcket 
 console.log(person.address.negara);
 person['name'] = "Zaini"
+person.name = "Zaini"
 console.log(person.name);
 
 console.log(person.umur);
@@ -30,8 +31,8 @@ console.log(person.umur);
 
 
 // Tugas Bag 1 nomor 3
-delete person.city;
-console.log(person.city);
+delete person.kota;
+console.log(person.kota);
 
 
 // Tugas Bag 2 Nomor 1
