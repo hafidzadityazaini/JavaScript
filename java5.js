@@ -1,5 +1,5 @@
 //soal 1 start
-let hari = "sabtu";
+let hari = "minggu";
 
 switch (hari) {
   case "senin":
