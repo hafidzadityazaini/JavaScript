@@ -1,13 +1,14 @@
-function kelompokkanBilangan(bilangan) {
-  if (bilangan % 2 === 0) {
-      if (bilangan % 4 === 0) {
-          return 'Bilangan genap dan bisa dibagi 4';
-      } else {
-          return 'Bilangan genap tetapi tidak bisa dibagi 4';
+export function getDivisibleByFourString3() {
+    export function analisisdata() {
+      let result = [];
+      for (let i = 1; i <= 20; i++) {
+        let divisibleByFour = i % 4 === 0 ? "bisa dibagi 4" : "tidak bisa dibagi 4";
+        let oddEven = i % 2 === 0 ? `genap ${divisibleByFour}` : `ganjil`;
+    
+        result.push(`${i} adalah bilangan ${oddEven}`);
       }
-  } else {
-      return 'Bilangan ganjil';
-  }
-}
-
-module.exports = kelompokkanBilangan;
+      return result;
+    }
+    
+    console.log(getDivisibleByFourString3());
+    console.log(analisisdata());

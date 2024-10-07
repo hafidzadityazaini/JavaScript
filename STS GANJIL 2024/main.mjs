@@ -1,5 +1,5 @@
-const kelompokkanBilangan = require('./exam.js');
+import { getDivisibleByFourString3 } from "./exam.mjs";
+import { analisisdata } from "./exam.mjs";
 
-for (let i = 1; i <= 20; i++) {
-    console.log(`Bilangan ${i}: ${kelompokkanBilangan(i)}`);
-}
+console.log(getDivisibleByFourString3());
+console.log(analisisdata());
