@@ -10,6 +10,10 @@ console.log(identity);
 // identity.splice(1,1);
 // console.log(identity);
 
+// delete identity[0]
+// console.log(identity);
+
+
 // Soal 4
 const angka1 = [1,2,3]
 const angka2 = [4,5,6]  

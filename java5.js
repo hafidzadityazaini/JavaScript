@@ -1,5 +1,5 @@
 //soal 1 start
-let hari = "minggu";
+let hari = "minggu1";
 
 switch (hari) {
   case "senin":
@@ -27,8 +27,8 @@ switch (hari) {
 //soal 1 clear
 
 //soal 2 start
-for (let i = 1; i <= 15; i++) {
-  if (i % 3 === 0 && i % 5 === 0) {
+for (let i = 4; i <= 15; i++) {
+  if (i % 3 === 0 && i % 4 === 0) {
     console.log("FizzBuzz");
   } else if (i % 3 === 0) {
     console.log("Fizz");
